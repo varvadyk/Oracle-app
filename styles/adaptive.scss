@@ -1,0 +1,253 @@
+@media screen  and (max-width:1024px){
+  .logo img{
+    width: 230px;
+  }
+  .navigation_content li{
+     margin: 18px;
+   }
+   .navigation_content  li a {
+     font-size: 15px;
+   }
+  .why_oracle_content {
+    max-width: 980px;
+  }
+  .paragraph_content {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+ .footer_block .footer_content {
+    padding-right: 100px;
+  
+}
+.footer_site_contacts{
+  padding-top: 10px;
+}
+}
+@media screen  and (max-width:768px){
+ .logo img{
+  width: 230px;
+}
+
+.navigation_content nav{
+  position: absolute;
+  top: 78px;
+  left: 110px;
+}
+.navigation_content svg{
+  position: absolute;
+    right: 180px;
+}
+.navigation_content .log_in {
+  position: absolute;
+  right: 20px;
+}
+
+.text_content {
+  padding-top: 30px;
+}
+.phychic_edvisor_info {
+  max-width:300px;
+}
+.why_oracle_block .why_oracle_content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ 
+  .paragraph_content {
+    max-width: 600px;
+  }
+  .footer_block .footer_content {
+    padding-right: 50px;
+  
+}
+}
+
+@media screen and (max-width: 375px) {
+ .logo img {
+  margin-left: -30px;
+  width: 100px;
+  }
+
+  .header_content {
+  background-position: center;
+  }
+
+  .header_burger {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 194px;
+    width: 30px;
+    height: 22px;
+    margin-right: 30px;
+  }
+ .header_burger span {
+    background-color:#09B3B0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top:10px;
+  }
+    
+  .header_burger::before,
+  .header_burger:after {
+    content:'';
+    background-color: #09B3B0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    }
+    
+  .header_burger::before {
+    top:0;
+    }
+    
+  .header_burger:after {
+    bottom: 0;
+    }
+  .header_burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+        }
+  .header_burger.active::before {
+    transform: rotate(45deg);
+    top: 11px;
+      }
+  
+  .header_burger.active span {
+    transform: scale(0);
+      }
+  
+  .navigation_content nav {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0px;
+  }  
+  .navigation_content nav ul{
+    flex-wrap: wrap;
+
+  } 
+  
+  .navigation_content nav .active {
+    top:45px;
+      }
+
+  .navigation_content svg{
+    position: absolute;
+    right:188px;
+  }
+  .navigation_content .log_in {
+    position: absolute;
+    right: 32px;
+  }
+
+  .header_content .text_content div {
+    width: 320px;
+    text-align: left;
+  }
+
+  .header_content .text_content  p {
+    text-align: left;
+  }
+ 
+  .text_content {
+    padding-top: 85px;
+    padding-left: 15px;
+
+  }
+  .text_content div {
+    width: 300px;
+  }
+
+  .text_content .text_title {
+   font-size: 4.43rem;
+  }
+
+  .text_content .text-history {
+    font-size: 1.4rem;
+   }
+
+ .phychic_edvisor {
+   background-size: cover;
+ }
+
+ .phychic_editor_block  .phychic_edvisor_article {
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .phychic_edvisor-content {
+    flex-direction: column;
+   
+  }
+
+  .phychic_edvisor-content img {
+  width: 183px;
+  margin: 0 auto;
+  }
+
+  .phychic_edvisor-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .why_oracle {
+    background-size: cover;
+  }
+
+  .phychic_editor_block .arrow_content {
+    display: none;
+  }
+
+  .phychic_edvisor_btn {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .paragraph_content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .footer_content .footer_oracle_contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_oracle_social_info {
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .header_content .text_content {
+    width:315px ;
+  }
+  .header_burger {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 156px;
+}
+
+  .navigation_content svg {
+    position: absolute;
+    right: 149px;
+  }
+
+  .navigation_content .log_in {
+    position: absolute;
+    right: 1px;
+  }
+  .text_content {
+    padding-top: 85px;
+    padding-left: 18px;
+  }
+
+.footer_oracle_social_info {
+  width: 200px;
+}
+
+}
